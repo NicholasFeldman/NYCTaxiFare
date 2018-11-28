@@ -1,7 +1,7 @@
 # NYCTaxiFare
 
 ## Running
-1. `pip install numpy pandas, sklearn`
+1. `pip install -r requirements.txt`
 2. Create `test.csv and train.csv`
 2. `python NYCTaxiFare.py`
 

@@ -1,7 +1,12 @@
 venv/
+.DS_Store
 
 .idea
 *.iml
 *.iws
 *.swp
 *.csv
+
+test.csv
+train.csv
+output.csv
