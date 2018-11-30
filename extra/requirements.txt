@@ -1,0 +1,6 @@
+numpy
+pandas
+sklearn
+google-cloud-storage
+google-auth
+google
