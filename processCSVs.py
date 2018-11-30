@@ -4,12 +4,11 @@ import pandas as pd
 from datetime import datetime
 
 PU_DATETIME = 1
-PASSENGER_COUNT = 3
 PU_LOCATION = 7
 DO_LOCATION = 8
 TOTAL = 10
-DATA_TO_KEEP = [PASSENGER_COUNT, PU_LOCATION, DO_LOCATION, TOTAL]
-CSV_HEADERS = ','.join(['passenger_count', 'PULocationID', 'DOLocationID', 'fare_amount', 'year', 'month', 'hour'])
+DATA_TO_KEEP = [PU_LOCATION, DO_LOCATION, TOTAL]
+CSV_HEADERS = ','.join(['PULocationID', 'DOLocationID', 'fare_amount', 'year', 'month', 'hour'])
 
 def write_headers(file_path):
     with open(file_path, 'w') as write_file:
