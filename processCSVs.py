@@ -27,8 +27,8 @@ def process_data(line):
 
 def main():
     count = 0
-    train_path = os.path.join(os.getcwd() + '/output/', 'train.csv')
-    test_path = os.path.join(os.getcwd() + '/output/', 'test.csv')
+    train_path = os.path.join(os.getcwd(), 'train.csv')
+    test_path = os.path.join(os.getcwd(), 'test.csv')
     write_headers(train_path)
     write_headers(test_path)
     for filename in glob.glob(os.path.join(os.getcwd() + '/input', '*.csv')):
